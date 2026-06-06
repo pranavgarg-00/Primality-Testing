@@ -12,7 +12,7 @@ If we have a SQRT algorithm that finds the root of a quadratic residue, we can u
 Algorithm:
 Given an integer n to test for prime. We run the following experiment many times:
   1) Choose a random $r \in [1, n-1]$.
-  2) Calculate $s = r^2 (mod n)$.
+  2) Calculate $s = r^2$ (mod $n$).
   3) Check if SQRT($s$) = $\pm r$.
 
 The implementation of SQRT is easy for primes that are 3 (mod 4). For the 1 (mod 4) case, we use the Berlekamp-Rabin algorithm. We stress that the above experiment would return correct $r$ for composites at most half the time, whereas for primes it would return correct $r$ always for the 3 (mod 4) case, and still more often for than composites for the 1 (mod 4) case. 
