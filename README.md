@@ -20,5 +20,5 @@ Another note is that, even though prime powers only have 2 unique roots, the SQR
 
 I'll add a large prime generator once the primality tester starts working.
 
-#Update 
+# Update 
 Large Prime Generator works now for the 3 mod 4 case. Generates 4096-bit primes in 30 seconds.
