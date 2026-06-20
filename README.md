@@ -19,3 +19,6 @@ The implementation of SQRT is easy for primes that are 3 (mod 4). For the 1 (mod
 Another note is that, even though prime powers only have 2 unique roots, the SQRT algorithm that would work on primes would certainly fail on them prime powers with a significant probability.
 
 I'll add a large prime generator once the primality tester starts working.
+
+#Update 
+Large Prime Generator works now for the 3 mod 4 case. Generates 4096-bit primes in 30 seconds.
